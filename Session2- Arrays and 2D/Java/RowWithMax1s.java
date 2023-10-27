@@ -1,5 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/row-with-max-1s0023
-
+//Row with max 1s in a sorted matrix, every row's 1's appear at the end
 //O(N+M)
 class Solution {
     int rowWithMax1s(int arr[][], int n, int m) {
