@@ -2,7 +2,7 @@ package sample.gehealthcare;
 
 import java.util.Comparator;
 
-public class CamparatorExample implements Comparator<Employee>{
+public class ComparatorExample implements Comparator<Employee>{
 
 	@Override
 	public int compare(Employee o1, Employee o2) {
