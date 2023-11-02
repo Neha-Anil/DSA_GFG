@@ -40,9 +40,9 @@ class Solution {
         
         
         for(int nbr: adj.get(node)) {
-            if(nbr==parent)
+            if(nbr==parent) //the edge from a node to its parent must not be considered.
             continue;
-            if(vis[nbr]==1)
+            if(vis[nbr]==1) //means a cycle has been caught
             return true;
             
             parents[nbr]=node;
