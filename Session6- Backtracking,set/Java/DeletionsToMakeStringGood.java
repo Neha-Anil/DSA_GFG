@@ -2,7 +2,7 @@
 
 // Given a string s, return the minimum number of characters you need to delete to make s good.Freq of 0 is ignored
 
-//SET SOLUTION
+//SET SOLUTION  O(N)
 class Solution {
     public int minDeletions(String s) {
         // Create an array to store character frequencies (one for each letter of the alphabet)
@@ -36,7 +36,7 @@ class Solution {
     }
 }
 
-//HEAP SOLUTION
+//HEAP SOLUTION O(NlogN)
 class Solution {
     public int minDeletions(String s) {
         // Create a map to store character frequencies
